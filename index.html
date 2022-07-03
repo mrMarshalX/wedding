@@ -1,111 +1,75 @@
 <link href="https://fonts.googleapis.com/css?family=Alex+Brush&v1" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+  h1 {
+    font-family: 'Alex Brush', arial, serif;
+    font-size: 3.5rem;
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
 body {
   display: flex;
   justify-content: center;
-}
-    
-h1 {
-    font-family: 'Alex Brush', arial, serif;
-    font-size: 3.5rem;
-    margin-bottom: 1rem;
-    margin-top: 2rem;
+  width: 100%;
 }
 
-.menu {
-  width: 25rem;
-  height: 610px;
-  border: solid 1px black;
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 5px;
 }
 
-.title {
-  margin-bottom: 0;
-  font-size: 15px;
-  letter-spacing: 1.25px;
-  font-weight: 700;
-}
-
-.dish, .time {
-  font-size: 13px;
-}
-
-.time {
+.date {
   font-style: italic;
+  font-size: 1.25rem;
+}
+
+.action {
+  display: flex;
+  margin-top: 3rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.button {
+  padding: 5px 12px;
+  background-color: khaki;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  color: #4169e1;
+}
+
+.button:hover {
+  background-color: goldenrod;
+  color: white;
 }
 </style>
 
-<div class="menu">
+<div class="container">
   <h1>
-    Menu
+    Paulina
   </h1>
-  <p class="title">
-    PRZYSTAWKA
+  <h1>
+    &amp;
+  </h1>
+  <h1>
+    Marcin
+  </h1>
+  <p class="date">
+    16.07.2022
   </p>
-  <span class="dish">
-    Carpaccio wołowe, pikle, mrożona oliwa
-  </span>
-  <p class="title">
-    ZUPA
-  </p>
-  <span class="dish">
-    Krem z pora z grzankami
-  </span>
-  <p class="title">
-    DANIA GŁÓWNE
-  </p>
-  <span class="dish">
-    · De Volaille z masłem i pietruszką
-  </span>
-  <span class="dish">
-    · Grillowana pierś z kurczaka (suszone pomidory i szpinak)
-  </span>
-  <span class="dish">
-    · Zraz wołowy z chlebem razowym, ogórkiem, boczniakiem
-  </span>
-  <span class="dish">
-    · Grillowany sandacz z blanszowanymi kurkami
-  </span>
-   <p class="title">
-    DESER
-  </p>
-  <span class="dish">
-    Lody z owocami oraz Ciasto Pałacowe
-  </span>
-  <p class="title">
-    ZIMNY BUFER ORAZ SAŁATKI
-  </p>
-  <span class="dish">
-    ok. godz. 20:30
-  </span>
-   <p class="title">
-    TORT WESELNY
-  </p>
-  <span class="dish">
-    ok. godz. 23:30
-  </span>
-  <p class="title">
-    KOLACJA
-  </p>
-  <span class="dish">
-    ok. godz. 1:30
-  </span>
-  <span class="dish">
-    · Barszcz czerwony oraz Żurek po staropolsku
-  </span>
-  <span class="dish">
-    · Golonka pieczona ze skórą i kością
-  </span>
-  <span class="dish">
-    · Strogonoff wołowy z kluseczkami francuskimi
-  </span>
-  <span class="dish">
-    · Bigos z dziczyzną
-  </span>
-</div>
+  
 
-<a href="./menu.html">MENU</a>
+<div class="action">
+  <a href="./menu.html">
+    <div class="button">
+     MENU
+    </div>
+  </a>
+</div>
+</div>
